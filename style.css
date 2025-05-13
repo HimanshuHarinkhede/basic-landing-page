@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 1px dotted black;
+}
+
+#navbar  nav{
+  display: flex;
+  justify-content: space-around; /* or space-between, space-around, etc. */
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  gap: 20px; /* spacing between links */
+}
+
+.nav{
+
+    
+    text-decoration: none;
+    color: black;
+    font-size: 25px ;
+    font-weight: bolder;
+    
+}
+
+h1{
+    color: red;
+    background-color: beige;
+    display: inline-block;
+}
+
+p{
+    text-decoration: underline;
+    background-color: rgba(127, 150, 167, 0.195);
+}
+
+#immg{
+    
+
+     display: flex;
+     justify-content: center;
+     overflow: hidden;
+     align-items: center; 
+     height: 50vh;
+    
+}
+#immg img{
+     max-width: 100%;         /* Responsive width */
+  max-height: 100%;        /* Constrain height */
+  object-fit: cover;       /* Crop nicely to fit */
+  
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(14, 14, 12);
+    transform: scale(1.1);
+}
+
+
+#book{
+    color: #9b7928;
+}
+footer{
+   
+    padding-top: 30px;
+}
